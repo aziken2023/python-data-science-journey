@@ -1,2 +1,3 @@
 - Today i started rebuilding my knowldege with data science and committing to trying to be a more developed data scientist.
 - Started off little and basic by trying to perfect my skills in in git and understanding how to push into my Github, should be easy, but it felt relieving to understand the logic.
+- I started learning how to convert data types from one type to another, for some reason this is the first time i am trying it out. 
