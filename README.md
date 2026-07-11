@@ -1,12 +1,43 @@
 # Python Data Science Journey
 
-This repository documents my journey from strengthening my Python fundamentals to building data analysis and machine learning projects.
+Welcome!
 
-## Goals
+This repository documents my journey from rebuilding my Python fundamentals to becoming a job-ready Data Analyst/Data Scientist.
 
-- Strengthen Python fundamentals
-- Learn Git and GitHub properly
-- Learn SQL
-- Master pandas and data visualization
-- Build job-ready portfolio projects
-- Become ready for graduate data roles by September
+The goal is not simply to learn Python syntax, but to understand how Python is applied in real-world data analysis, automation, SQL, visualization, and machine learning.
+
+---
+
+## Skills Covered
+
+- Python Fundamentals
+- Git & GitHub
+- SQL
+- pandas
+- NumPy
+- Data Visualization
+- Statistics
+- Machine Learning
+
+---
+
+## Repository Structure
+
+01_python_basics/
+02_data_structures/
+03_control_flow/
+04_functions/
+...
+
+---
+
+## Learning Philosophy
+
+Every lesson contains:
+
+- Notes
+- Exercises
+- Reflection
+- Git commits
+
+This repository grows every day as I continue learning.
