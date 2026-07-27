@@ -2,3 +2,4 @@
 - Started off little and basic by trying to perfect my skills in in git and understanding how to push into my Github, should be easy, but it felt relieving to understand the logic.
 - I started learning how to convert data types from one type to another, for some reason this is the first time i am trying it out. 
 - Started working on inputs and how to create and write codes to add to input and type into the code.
+- Started applying my skills in a business concept and started using those kind of skills in how they work in a business evironment.
