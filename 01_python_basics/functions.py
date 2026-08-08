@@ -126,3 +126,21 @@ def get_rating(book):
 for book in books:
     rating = get_rating(book)
     print(rating)
+
+#exercises with a football match
+def calculate_goals(home_goals, away_goals):
+    return home_goals + away_goals
+
+total_goals = calculate_goals(5, 1)
+print(total_goals)
+
+#another execersie but with football matches 
+def calculate_total_goals(goals, penalty_goals):
+    return goals + penalty_goals 
+
+Palmer_combined_goals = calculate_total_goals(8, 1)
+print("Palmer:", Palmer_combined_goals)
+Enzo_combined_goals = calculate_total_goals(4, 1)
+print("Enzo:", Enzo_combined_goals)
+Joao_combined_goals = calculate_total_goals(11, 1)
+print("Joao:", Joao_combined_goals)
