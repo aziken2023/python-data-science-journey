@@ -98,3 +98,31 @@ for book in books:
     else:
         print("Do not recommend", book["title"])
 
+#Exercise 1 of practicing with return
+def calculate_book_cost(price, quantity):
+   return price * quantity
+    
+total = calculate_book_cost(12.99, 3)
+print(total)
+
+#Exercise 2 of practicing with return
+def calculate_average(mark1, mark2, mark3):
+    return (mark1 + mark2 + mark3)/3
+
+average = calculate_average(70,80,90)
+print(average)
+
+#Exercise for books with using a return funciton
+books = [
+    {"title": "Harry Potter", "rating": 4.8},
+    {"title": "The Hobbit", "rating": 4.2},
+    {"title": "Twilight", "rating": 2.9},
+    {"title": "Dune", "rating": 4.6}
+]
+
+def get_rating(book):
+    return book["rating"]
+
+for book in books:
+    rating = get_rating(book)
+    print(rating)
