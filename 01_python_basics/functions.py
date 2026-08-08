@@ -56,3 +56,45 @@ display_match("Hull City", "Milwall", "0-0")
 display_book("Diary of a wimpy kid", 12.99, "Jeff Kiney", 3.5)
 display_book("Archie", 8.99, "Bob Montana", 3.4)
 display_book("100 animals that can fucking end you", 13.99, "Mamadou Ndiaye", 4.5)
+
+#combining functions, dictionaries, loops, conditions
+books = [
+    {"title": "Harry Potter", "rating": 4.8},
+    {"title": "The Hobbit", "rating": 4.2},
+    {"title": "Twilight", "rating": 2.9},
+    {"title": "Dune", "rating": 4.6}
+]
+
+def show_books(book):
+    print("book:", book["title"])
+    print("rating:", book["rating"])
+
+for book in books:
+    show_books(book)
+
+    if book["rating"] > 4.0:
+        print(book, "This is a top rated book")
+    else:
+        print(book, "This is not a top rated book")
+
+#Another function combining everything
+books = [
+    {"title": "Harry Potter", "rating": 4.8},
+    {"title": "The Hobbit", "rating": 4.2},
+    {"title": "Twilight", "rating": 2.9},
+    {"title": "Dune", "rating": 4.6},
+    {"title": "The Hunger Games", "rating": 4.7}
+]
+#creating our function for the book
+def check_book(book):
+    print(book["title"])
+    print(book["rating"])
+#Loop to go through books
+for book in books:
+    check_book(book)
+#conditions to check for if we should recommend a book
+    if book["rating"] > 4.0:
+        print("Recommend", book["title"])
+    else:
+        print("Do not recommend", book["title"])
+
